@@ -5,7 +5,6 @@ export default function SignUpForm({ token, setToken }) {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState(null);
-  //   const [valid, setValid] = useState(null);
 
   const handleSubmit = async (event) => {
     event.preventDefault();
